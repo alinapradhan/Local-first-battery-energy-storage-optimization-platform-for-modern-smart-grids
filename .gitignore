@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+backend/local_energy_storage.db
+backend/saved_models/*.pt
+node_modules/
+frontend/dist/
+.env
+.DS_Store
