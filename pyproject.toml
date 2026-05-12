@@ -1,0 +1,25 @@
+[project]
+name = "battery-storage-optimizer"
+version = "0.1.0"
+description = "Local smart-grid battery energy storage optimization platform"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.111.0",
+  "uvicorn[standard]>=0.30.0",
+  "pydantic>=2.7.0",
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+  "scikit-learn>=1.4.0",
+  "torch>=2.2.0",
+  "python-multipart>=0.0.9"
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

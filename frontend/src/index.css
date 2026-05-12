@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { margin: 0; background: #071014; color: #dff7ff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+.grid-texture { background-image: linear-gradient(rgba(0,229,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,229,255,.05) 1px, transparent 1px); background-size: 28px 28px; }
