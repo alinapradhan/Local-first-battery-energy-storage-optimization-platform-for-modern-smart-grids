@@ -1,6 +1,6 @@
-# battery-storage-optimizer
+# Local-first battery energy storage optimization platform for modern smart grids
 
-A Siemens-inspired, local-first battery energy storage optimization platform for modern smart grids. The project simulates utility-scale battery energy storage system (BESS) telemetry, forecasts demand with PyTorch LSTM models, recommends charging and discharging schedules, and visualizes grid-balancing operations in a React industrial control-center dashboard.
+A local-first battery energy storage optimization platform for modern smart grids. The project simulates utility-scale battery energy storage system (BESS) telemetry, forecasts demand with PyTorch LSTM models, recommends charging and discharging schedules, and visualizes grid-balancing operations in a React industrial control-center dashboard.
 
 This repository intentionally focuses on code implementation and local execution. It does **not** include cloud deployment, Kubernetes, CI/CD pipelines, authentication, or enterprise hosting infrastructure.
 
