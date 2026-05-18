@@ -5,7 +5,7 @@ A local-first battery energy storage optimization platform for modern smart grid
 This repository intentionally focuses on code implementation and local execution. It does **not** include cloud deployment, Kubernetes, CI/CD pipelines, authentication, or enterprise hosting infrastructure.
 
 ## Features 
-
+ 
 - Synthetic smart-grid simulator for demand, solar, wind, grid frequency, voltage, price, peaks, load spikes, renewable overproduction, and battery degradation.
 - CSV dataset generation for training, analysis, and repeatable local experiments.
 - FastAPI backend with modular APIs, Pydantic schemas, services, simulators, ML modules, optimization engines, and SQLite storage.
