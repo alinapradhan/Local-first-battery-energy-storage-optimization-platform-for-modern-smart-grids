@@ -15,7 +15,7 @@ This repository intentionally focuses on code implementation and local execution
 - Anomaly detection for unsafe temperatures, overcharge risk, grid overload, voltage excursions, frequency instability, and abnormal degradation symptoms.
 - React + TypeScript + TailwindCSS dashboard with Recharts visualizations and a dark industrial SCADA-style UI.
 
-## Architecture
+## Architecture 
 
 ```mermaid
 flowchart LR 
