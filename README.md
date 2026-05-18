@@ -18,7 +18,7 @@ This repository intentionally focuses on code implementation and local execution
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart LR 
     Simulator[Grid + BESS Simulator] --> CSV[(CSV datasets)]
     Simulator --> SQLite[(SQLite telemetry)]
     CSV --> ML[PyTorch LSTM Forecasting]
